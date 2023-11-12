@@ -1,0 +1,137 @@
+html {scroll-behavior: smooth;}
+
+/*BARRA DE NAVEGACIÓN*/
+
+.head {background-color: #000000;}
+
+.logo
+{
+    padding: 5px;
+    text-align: center;
+}
+.container-fluid {
+    padding: 0px;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 10px 18px;
+    background-color: #000000;
+    color: white
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #20D766;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+
+    color: white;
+    border-bottom-color:#20D766; 
+    border-bottom-style:groove;
+    border-width: thick;
+}
+
+.links{
+    background-color: #000000; 
+    margin: 0px;
+}
+
+.links img {
+    width: 30px;
+    height: 30px;
+}
+
+.links img:hover {
+  background-color: #2A0B6E;
+  border-radius: 13px;
+}
+nav.navbar.navbar-expand-sm.navbar-light.bg-light {padding-top: 0; padding-bottom: 0;}
+
+.navbar{font-family: 'Oswald', sans-serif;}
+
+p {font-family: 'Oswald', sans-serif; text-align: left}
+h2 {font-family: 'Big Shoulders Text', cursive; text-align: left; color:#2A0B6E}
+h4 {font-family: 'Big Shoulders Text', cursive; text-align: left; font-size: 20px; ; color:#20D766}
+h6 {font-family: 'Oswald', sans-serif; text-align: center}
+
+
+/*SECCIÓN 1*/
+.sec1{
+    background-image: url(../imagenes/pdweb-barra4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+}
+
+.sec1 div{padding: 50px;}
+
+.sec1 h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+/*SECCIÓN 2*/
+
+.sec2 div{
+    text-align: center;
+    margin: auto;
+}
+
+.sec2 img{
+    margin:auto;
+}
+
+
+
+/*SECCIÓN 3*/
+.sec3 p{text-align: center;}
+.sec3 h2{text-align: center;}
+.sec3 figure img{max-width: 160px;}
+
+.sec3 div{
+    padding: 0 10px 0 10px;
+}
+/*SECCIÓN 4*/
+.sec4 form{
+    text-align: left;
+    color: #20D766;
+}
+
+.sec4 form input{
+    width: 300px;
+    color: #20D766;
+    text-align: left;
+}
+.sec4 textarea{
+    width: 400px;
+    color: #20D766;
+    text-align: right;
+}
+
+
+/*SECCIÓN 5*/
+.sec5 div{
+    padding: 5px;
+}
+
+/*FOOTER*/
+footer {
+    background-image: url(../iconos/pdweb-linea1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    height: 40px;
+}
+footer img {
+    width: 20px;
+    height: 20px;
+}
+
+/*FLECHA*/
+.sube{
+    background-color: transparent;
+    position: fixed; 
+    bottom: 5px;
+    right: 5px;
+}
+.sube:hover{background-color: transparent;}

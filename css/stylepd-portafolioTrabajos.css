@@ -1,0 +1,140 @@
+html {scroll-behavior: smooth;}
+
+/*BARRA DE NAVEGACIÓN*/
+
+.head {background-color: #000000;}
+
+.logo
+{
+    padding: 5px;
+    text-align: center;
+}
+.container-fluid {
+    padding: 0px;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 10px 18px;
+    background-color: #000000;
+    color: white
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #20D766;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+
+    color: white;
+    border-bottom-color:#20D766; 
+    border-bottom-style:groove;
+    border-width: thick;
+}
+
+.links{
+    background-color: #000000; 
+    margin: 0px;
+}
+
+.links img {
+    width: 30px;
+    height: 30px;
+}
+
+.links img:hover {
+  background-color: #2A0B6E;
+  border-radius: 13px;
+}
+nav.navbar.navbar-expand-sm.navbar-light.bg-light {padding-top: 0; padding-bottom: 0;}
+
+.navbar{font-family: 'Oswald', sans-serif;}
+
+p {font-family: 'Oswald', sans-serif; text-align: left}
+h2 {font-family: 'Big Shoulders Text', cursive; text-align: left; color:#2A0B6E}
+h4 {font-family: 'Big Shoulders Text', cursive; text-align: left; font-size: 20px; ; color:#20D766}
+h6 {font-family: 'Oswald', sans-serif; text-align: center}
+
+
+/*SECCIÓN 1*/
+.sec1{
+    background-image: url(../imagenes/pdweb-barra1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+}
+
+.sec1 div{padding: 50px;}
+
+.sec1 h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+/*SECCIÓN 2*/
+.sec2 h2{font-size: 70px;}
+
+.sec2 h3{font-size: 50px; font-family: 'Oswald', sans-serif;}
+
+.sec2 h5{font-size: 35px; font-family: 'Big Shoulders Text', cursive; color:#2A0B6E} }
+
+.sec2 p {font-size: 30px; font-family: 'Oswald', sans-serif;}
+
+/*SECCIÓN 3*/
+
+.sec3 .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sec3{
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*SECCIÓN 3*/
+.sec4 {
+    background-color:#20D766; 
+    padding: 0 0 20px 0;
+}
+
+/*SECCIÓN 4*/
+.sec6 {
+    background-color:#2A0B6E; 
+    padding: 0 0 20px 0;
+}
+
+/*FOOTER*/
+footer {
+    background-image: url(../iconos/pdweb-linea1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    height: 40px;
+}
+footer img {
+    width: 20px;
+    height: 20px;
+}
+
+/*FLECHA*/
+.sube{
+    background-color: transparent;
+    position: fixed; 
+    bottom: 5px;
+    right: 5px;
+}
+.sube:hover{background-color: transparent;}

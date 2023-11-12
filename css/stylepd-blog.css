@@ -1,0 +1,105 @@
+html {scroll-behavior: smooth;}
+
+/*BARRA DE NAVEGACIÓN*/
+
+.head {background-color: #000000;}
+
+.logo
+{
+    padding: 5px;
+    text-align: center;
+}
+.container-fluid {
+    padding: 0px;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 10px 18px;
+    background-color: #000000;
+    color: white
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #20D766;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+
+    color: white;
+    border-bottom-color:#20D766; 
+    border-bottom-style:groove;
+    border-width: thick;
+}
+
+.links{
+    background-color: #000000; 
+    margin: 0px;
+}
+
+.links img {
+    width: 30px;
+    height: 30px;
+}
+
+.links img:hover {
+  background-color: #2A0B6E;
+  border-radius: 13px;
+}
+nav.navbar.navbar-expand-sm.navbar-light.bg-light {padding-top: 0; padding-bottom: 0;}
+
+.navbar{font-family: 'Oswald', sans-serif;}
+
+p {font-family: 'Oswald', sans-serif; text-align: left}
+h2 {font-family: 'Big Shoulders Text', cursive; text-align: left; color:#2A0B6E}
+h4 {font-family: 'Big Shoulders Text', cursive; text-align: left; font-size: 20px; ; color:#20D766}
+h6 {font-family: 'Oswald', sans-serif; text-align: center}
+h5 {font-family: 'Big Shoulders Text', cursive; text-align: left; color:#2A0B6E}
+
+
+/*SECCIÓN 1*/
+.sec1{
+    background-image: url(../imagenes/pdweb-barra3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+}
+
+.sec1 div {padding: 50px;}
+
+.sec1 h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+
+/*SECCIÓN R*/
+
+.secR p {text-align: right;}
+.secR h2 {text-align: right;}
+.secR h4 {text-align: right;}
+.secR h5 {text-align: right;}
+
+/*SECCIÓN 4*/
+
+
+/*FOOTER*/
+footer {
+    background-image: url(../iconos/pdweb-linea1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    height: 40px;
+}
+footer img {
+    width: 20px;
+    height: 20px;
+}
+
+/*FLECHA*/
+.sube{
+    background-color: transparent;
+    position: fixed; 
+    bottom: 5px;
+    right: 5px;
+}
+.sube:hover{background-color: transparent;}
